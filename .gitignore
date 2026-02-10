@@ -1,0 +1,7 @@
+
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+# Keep the database for now if user wants it, or ignore it. Usually ignore.
+# diabetes_app.db 

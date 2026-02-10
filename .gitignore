@@ -1,7 +1,26 @@
 
-.venv/
+# Python
 __pycache__/
 *.pyc
+.venv/
+venv/
+env/
+
+# Streamlit
 .streamlit/secrets.toml
-# Keep the database for now if user wants it, or ignore it. Usually ignore.
-# diabetes_app.db 
+
+# Database
+# Exclude the SQLite database to protect user data
+diabetes_app.db
+*.sqlite3
+
+# Environment Variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

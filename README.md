@@ -31,3 +31,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+MY PROJECT DEMO VIDEO LINK:
+https://drive.google.com/file/d/1ib5h_aGJgiEPktSSpMoW2E1x1ObiUQGP/view?usp=sharing
